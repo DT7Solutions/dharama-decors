@@ -2920,7 +2920,7 @@ img {
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 5% 12.5%;
+    padding: 2.5%;
     text-align: center;
 }
 
@@ -2971,7 +2971,13 @@ img {
     transform: translateY(10px);
 }
 
-.project-block-one .inner-box:hover .text {
+.project-block-one .link-btn a{
+    color: #fff;
+    opacity: 0;
+}
+
+.project-block-one .inner-box:hover .text,
+.project-block-one .inner-box:hover .link-btn a {
     opacity: 1;
     transform: translateY(0);
 }
