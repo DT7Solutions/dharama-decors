@@ -2908,7 +2908,7 @@ img {
     background-image: -moz-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
     background-image: -webkit-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
     background-image: -ms-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
-    opacity: .8;
+    opacity: 5;
 }
 
 .project-block-one .image img {
@@ -6262,13 +6262,14 @@ img {
 }
 
 .about-section-six:before {
+    /* background-color: #000000 !important; */
     position: absolute;
     content: '';
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    opacity: .85;
+    opacity: .65;
 }
 
 .about-section-six .single-image-carousel {
