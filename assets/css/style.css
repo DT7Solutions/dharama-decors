@@ -3030,32 +3030,32 @@ img {
     position: absolute;
     top: 0;
     left: 27px;
-    height: 100px;
+    height: 80px;
     width: 2px;
-    transform: translate(0, -145px);
+    transform: translate(0, -100px);
 }
 
 .sec-title.text-center .sec-title-dec {
     left: 50%;    
-    transform: translate(-50%, -145px);
+    transform: translate(-50%, -100px);
 }
 
 .sec-title .sec-title-dec:before {
     position: absolute;
     content: '';
     left: -25px;
-    top: 25px;
+    top: 20px;
     width: 2px;
-    height: 50px;
+    height: 40px;
 }
 
 .sec-title .sec-title-dec:after {
     position: absolute;
     content: '';
     right: -25px;
-    top: 25px;
+    top: 20px;
     width: 2px;
-    height: 50px;
+    height: 40px;
 }
 
 .sec-title .sec-title-dec-two {
@@ -3322,7 +3322,7 @@ img {
 
 .team-section {
     position: relative;
-    padding: 145px 0 210px;
+    padding: 145px 0 110px;
 }
 
 .team-block-one {
