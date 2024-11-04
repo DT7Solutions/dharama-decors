@@ -8107,6 +8107,35 @@ img {
 
 
 
+/* BG For All Sections */
+.page-title .content-box h1:before {
+    display: none;
+}
+.about-us-area-bg,
+.blinds-area-bg,
+.news-events-area-bg,
+.contact-us-area-bg {
+    padding: 130px 0 90px;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us-area-bg { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/about-us-sub-banner.webp);
+}
+.blinds-area-bg { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/blinds-sub-banner.webp);
+}
+.news-events-area-bg { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/news-events-subbanner.webp);
+}
+.contact-us-area-bg { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/contact-us-sub-banner.webp);
+}
+
 
 
 
