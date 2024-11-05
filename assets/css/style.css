@@ -5334,7 +5334,7 @@ img {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #ccad6e;
+    background: #7F00FF;
     color: #ffffff;
     margin-right: 1px;
     cursor: pointer;
@@ -5346,7 +5346,7 @@ img {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #ccad6e;
+    background: #7F00FF;
     color: #ffffff;
     margin-left: 1px;
     cursor: pointer;
@@ -6122,7 +6122,7 @@ img {
     bottom: 0;
     right: 0;
     text-align: center;
-    background-color: #ccad6e;
+    background-color: #7F00FF;
     padding: 50px 0 40px;
 }
 

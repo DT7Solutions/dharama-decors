@@ -30,7 +30,7 @@
 .process-block .count span,
 a:hover,
 a {
-	color: #ccad6e;
+	color: #7F00FF;
 }
 
 /* Border Color */
@@ -46,7 +46,7 @@ a {
 .team-block-one .border-two,
 .btn-style-two,
 .border-color {
-	border-color: #ccad6e;
+	border-color: #7F00FF;
 }
 
 /* Background */
@@ -122,6 +122,6 @@ a {
 .banner-section .btn-style-one.light:before,
 .feature-block-two .inner-box:before,
 .theme-bg {
-    background-color: #ccad6e;
+    background-color: #7F00FF;
 }
 
