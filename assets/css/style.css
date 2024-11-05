@@ -6745,7 +6745,7 @@ img {
 }
 
 .error-page .logo {
-    margin-bottom: 170px;
+    margin-bottom: 7.5%;
 }
 
 .error-page h1 {
@@ -6770,6 +6770,8 @@ img {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 40px;
+    max-width: 750px;
+    margin: 2.5% auto;
 }
 
 .error-page .link-btn .theme-btn {
@@ -8108,6 +8110,14 @@ img {
 
 
 /* BG For All Sections */
+.bg-404 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background/404-bg.webp);
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .page-title .content-box h1:before {
     display: none;
 }

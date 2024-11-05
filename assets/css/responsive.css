@@ -296,6 +296,26 @@
 	.contact-section-two .image img {
 		width: 100%;
 	}
+
+	.error-page {
+		padding-top: 20%;
+		padding-bottom: 35%;
+	}
+	.error-page .logo {
+		margin-bottom: 35%;
+	}
+	.error-page h1 {
+		font-size: 100px;
+		line-height: 100px;
+	}
+	.error-page h2 {
+		font-size: 50px;
+		margin-bottom: 2.5%;
+	}
+	.error-page .text {
+		font-size: 16px;
+		margin-bottom: 2.5%;
+	}
 }
 
 @media only screen and (min-width: 768px){
@@ -341,9 +361,6 @@
 	}
 	.contact-section .bottom-content .contact-info li:last-child:before {
 	    display: none;
-	}
-	.big-title {
-		display: none;
 	}
 
 }
@@ -444,6 +461,14 @@
 	}
 	.banner-section .link-box {
 	    padding-top: 20px;
+	}
+
+	.error-page {
+		padding-top: 15%;
+		padding-bottom: 25%;
+	}
+	.error-page .logo {
+		margin-bottom: 20%;
 	}
 }
 
