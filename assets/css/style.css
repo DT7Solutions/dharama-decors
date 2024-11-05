@@ -689,9 +689,9 @@ img {
 }
 
 .sticky-header .main-menu .navigation>li.current>a:before {
-    bottom: 0 !important;
+    bottom: 20% !important;
     top: auto !important;
-    height: 4px;
+    height: 2px;
 }
 
 .main-menu .navigation>li>ul {
@@ -1117,7 +1117,7 @@ img {
 }
 
 .sticky-header .main-menu .navigation>li>a {
-    padding: 20px 0px !important;
+    padding: 27px 0px !important;
     line-height: 30px;
     font-size: 16px;
     font-weight: 600;
@@ -2820,8 +2820,8 @@ img {
 .about-us-section .image-block .logo {
     position: relative;
     background-color: #3b3b44;
-    padding: 160px 60px 30px;
-    margin-top: -120px;
+    padding: 160px 15px 30px;
+    margin-top: -140px;
     margin-left: -60px;
     display: inline-block;
     margin-bottom: 30px;
@@ -6281,7 +6281,7 @@ img {
     right: 0;
     top: 0;
     bottom: 0;
-    opacity: .65;
+    opacity: 0.75;
 }
 
 .about-section-six .single-image-carousel {
