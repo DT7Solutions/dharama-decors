@@ -1735,7 +1735,6 @@ img {
 
 .hidden-sidebar .logo {
     padding-bottom: 30px;
-    margin-bottom: 50px;
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -1744,7 +1743,7 @@ img {
 }
 
 .hidden-sidebar .sidebar-widget {
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
 
 .hidden-sidebar .about-widget-two {
@@ -1754,7 +1753,11 @@ img {
 .hidden-sidebar .about-widget-two h3 {
     font-size: 23px;
     font-weight: 700;
-    margin-bottom: 28px;
+    margin-bottom: 2.5%;
+}
+
+.hidden-sidebar .about-widget .social-links ul li a:hover {
+    color: #7F00FF;    
 }
 
 .hidden-sidebar .news-widget {
@@ -5583,7 +5586,7 @@ img {
 
 .blog-section-two {
     position: relative;
-    padding: 305px 0 90px;
+    padding: 150px 0 90px;
 }
 
 .blog-section-two .shape-one {
