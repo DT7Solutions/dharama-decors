@@ -112,7 +112,6 @@ a {
 .feature-block h3:before,
 .service-block-one h4:before,
 .sec-title .sec-title-dec,
-.project-block-one h3:before,
 .funfacts-section .count-text:before,
 .hidden-sidebar .newsletter-widget .theme-btn,
 .banner-section .content-box h1:before,
@@ -122,6 +121,6 @@ a {
 .banner-section .btn-style-one.light:before,
 .feature-block-two .inner-box:before,
 .theme-bg {
-    background-color: #7F00FF;
+    background-color: #f651b2;
 }
 

@@ -3,6 +3,7 @@
 
 /* :root {
     --primary-color: #7F00FF;
+    --secondary-color: #f651b2;
 } */
 
 /*** 
@@ -534,7 +535,7 @@ img {
 .main-header .header-upper .logo-box .logo {
     position: relative;
     display: block;
-    padding: 29px 0px;
+    padding: 10px 0px;
 }
 
 .main-header .nav-outer {
@@ -2953,7 +2954,14 @@ img {
     position: relative;
     font-size: 36px;
     font-weight: 700;
+    color: #fff !important;
+}
+
+.project-block-one h3 a {
     color: #fff;
+}
+.project-block-one h3:before {
+    background-color: #fff;
 }
 
 .project-block-one h3:before {
@@ -8153,6 +8161,9 @@ img {
 }
 .contact-us-area-bg { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/contact-us-sub-banner.webp);
+}
+.cta-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/cta-bg.webp);
 }
 
 
