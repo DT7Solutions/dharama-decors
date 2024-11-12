@@ -72,8 +72,14 @@
 }
 
 @media only screen and (max-width: 991px){
+	.main-header .header-upper .inner-container {
+		justify-content: space-between;
+	}
 	.projects-section-two {
 		padding-bottom: 90px;
+	}
+	.about-us-section .text {
+		text-align: justify;
 	}
 	.services-details .content-side h3 {
 		font-size: 30px;
@@ -106,8 +112,7 @@
 	.room-dimention .content {
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 50px;
-		padding-right: 50px;
+		padding: 7.5% 5%;
 	}
 	.banner-section .content-box-three {
 	    padding: 220px 0 180px;
@@ -132,9 +137,6 @@
 	    font-size: 36px;
 	    line-height: 45px;
 	}
-	.projects-section-five {
-		padding-top: 30px;
-	}
 	.team-section {
 		padding-bottom: 90px;
 	}
@@ -158,7 +160,7 @@
 	    top: 0;
 	}
 	.working-process-section-two .sec-bg {
-	    bottom: 400px;
+	    bottom: 0px;
 	    height: auto;
 	}
 	.services-section.style-two .outer-container {
@@ -202,16 +204,18 @@
 		font-size: 150px;
 	}
 	.about-us-section .image-block {
-		display: inline-block;
+		display: flex;
+		justify-content: center;
 		padding-bottom: 110px;
 	}
 	.about-us-section .image-block .logo {
+		display: inline-block;
 	    position: absolute;
 	    margin-top: 0;
 	    margin-left: 0;
-	    display: inline-block;
-	    left: 0;
-	    bottom: -40px;
+		padding: 70px 15px 30px;
+	    left: 50px;
+	    bottom: -30px;
 	    width: 100%;
 	}
 	.funfacts-section .image {
@@ -249,8 +253,8 @@
 		display: none;
 	}
 	.contact-section .contact-form-area {
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.contact-section .image img {
 		width: 100%;
@@ -327,7 +331,34 @@
 	}
 }
 
-@media only screen and (max-width: 767px){	
+@media only screen and (max-width: 767px){
+	.about-section-six .tab-btn-style-one a.nav-link {
+		padding: 10px;
+	}
+	.about-section-six {
+		margin: 0%;
+	}
+	.about-section-six .single-image-carousel .swiper-slide img {
+		max-width: 75%;
+	}
+	.news-block-one .content {
+		padding: 20px 10px;
+	}
+	.news-block-one .text:before {
+		left: -10px;
+	}
+	.newsletter-section .theme-btn {
+		width: 100%;
+	}
+	.about-us-section .image-block {
+        padding-bottom: 20px;
+    }
+	.about-us-section .image-block .logo {
+		display: none;
+	}
+	.contact-section .contact-info-three .content .text br{
+		display: block;
+	}
 	.contact-section .contact-info-two .content {
 		padding-left: 0;
 	}

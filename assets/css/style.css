@@ -2893,6 +2893,7 @@ img {
 /* Projects Section */
 .projects-section {
     position: relative;
+    padding: 80px 0 50px;
 }
 
 .projects-section .auto-container {
@@ -3603,7 +3604,7 @@ img {
     bottom: 0;
     padding: 50px 30px 10px;
     text-align: center;
-    background-color: rgba(59, 59, 68, 0.90);
+    background-color: rgba(59, 59, 68, 0.7);
 }
 
 .news-block-two .date {
@@ -3654,6 +3655,7 @@ img {
 .newsletter-section {
     position: relative;
     background-size: cover;
+    background-position: center;
     padding: 80px 0 50px;
 }
 
@@ -5222,7 +5224,7 @@ img {
 
 .working-process-section-two {
     position: relative;
-    padding: 145px 0 110px;
+    padding: 130px 0 80px;
 }
 
 .working-process-section-two .sec-bg {
